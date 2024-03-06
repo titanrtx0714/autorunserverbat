@@ -1,2 +1,2 @@
 echo Starting Django Project...
-start "Django Server" cmd /c "cd /D D:\Project\MyProject\OttisTourist\otisproject && D:\Project\MyProject\OttisTourist\ottistourist\Scripts\activate && python manage.py runserver"
+start "Django Server" cmd /k "cd /D D:\projects\Django\1880_video_backend && D:\projects\Django\1880_video_backend\otisenv\Scripts\activate && python manage.py makemigrations && python manage.py migrate && python manage.py runserver"

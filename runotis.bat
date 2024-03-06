@@ -1,3 +1,3 @@
-start cmd /k runxampp.bat
-start cmd /k rundjango.bat
-start cmd /k runreact.bat
+start cmd /c runxampp.bat
+start cmd /c rundjango.bat
+start cmd /c runreact.bat
